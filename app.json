@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "OnCall",
+    "slug": "on-call",
+    "scheme": "untitled-app",
+    "description": "A medical app for clinics, pharmacies, insurance and more",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/app/icon.png",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0957DE"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.draftbit.untitledapp",
+      "buildNumber": "1.0.0",
+      "infoPlist": {},
+      "usesIcloudStorage": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.draftbit.untitledapp",
+      "permissions": [],
+      "adaptiveIcon": {}
+    },
+    "androidStatusBar": {},
+    "androidNavigationBar": {},
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    },
+    "extra": {
+      "eas": {}
+    }
+  }
+}
